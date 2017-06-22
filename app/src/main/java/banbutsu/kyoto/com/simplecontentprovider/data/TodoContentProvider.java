@@ -40,6 +40,9 @@ public class TodoContentProvider extends ContentProvider {
   public static final String CONTENT_ITEM_TYPE = ContentResolver.CURSOR_ITEM_BASE_TYPE
       + "/todo";
 
+
+
+
   private static final UriMatcher sURIMatcher = new UriMatcher(
       UriMatcher.NO_MATCH);
   static {
